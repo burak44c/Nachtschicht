@@ -31,15 +31,17 @@
   html,body{margin:0;padding:0;}
 body{
     background:
+      linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.65)),
       radial-gradient(ellipse at 20% -10%, var(--bg-tint-1), transparent 45%),
       radial-gradient(ellipse at 100% 110%, var(--bg-tint-2), transparent 40%),
       var(--bg);
+
     color:var(--text);
     font-family:var(--font-body);
     min-height:100vh;
     -webkit-font-smoothing:antialiased;
     transition:background .4s ease;
-  }
+}
   #app{
     min-height:100vh;
     display:flex;
