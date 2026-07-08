@@ -29,17 +29,16 @@
   }
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
-  body{
-    background:
-      radial-gradient(ellipse at 20% -10%, var(--bg-tint-1), transparent 45%),
-      radial-gradient(ellipse at 100% 110%, var(--bg-tint-2), transparent 40%),
-      var(--bg);
-    color:var(--text);
-    font-family:var(--font-body);
-    min-height:100vh;
-    -webkit-font-smoothing:antialiased;
-    transition:background .4s ease;
-  }
+body {
+
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.8)),
+    url("https://media.discordapp.net/attachments/1021888025883582524/1524505899777917158/72c284f0-33de-4839-9d60-883055316a0e.png?ex=6a4ffe42&is=6a4eacc2&hm=420994118c1268b7548eeedf0867c7c40fc3f047f7c4296eae0522a87c14d5b0&=&format=webp&quality=lossless&width=1280&height=699");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
   #app{
     min-height:100vh;
     display:flex;
